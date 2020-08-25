@@ -1,0 +1,16 @@
+
+import java.util.*;
+
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+
+        // Write your code here
+        Scanner scan=new Scanner(System.in);
+        int N=scan.nextInt();
+        scan.nextLine();
+        String S=scan.nextLine();
+        System.out.println(N*2);
+        System.out.println(S);
+
+    }
+}
